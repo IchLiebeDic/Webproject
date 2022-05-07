@@ -1,0 +1,206 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    width:100%;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* reset CSS*/
+
+
+
+
+
+
+
+#header{    
+    height:70px;
+    width: 100%;
+    /* background-color: pink; */
+}
+.logo{
+    background-color: white;
+}
+ /* #imglg{
+    width: 60px;
+    padding-left: 20px;
+    padding-top: 3px;
+ 
+    
+}  */
+#imglg{
+    height: 70px;
+    width: 400px;
+    /* border: 1px solid green; */
+    background-color: pink;
+    /* display:inline-block;  */
+    float: left;
+} 
+ /* #tenweb{  
+    float: right;
+    padding-right: 25%;
+    padding-top: 10px;
+    font-size: 40px;
+    text-decoration: none;
+}  */
+#icmn{
+    float: left;
+    max-width: 70px;
+}
+.ctg{
+    /* display: inline-block; */
+    width: 20%;
+    /* background-color: rgb(197, 229, 53); */
+    float: left;
+    margin-left: 2%;
+}
+.ctg h2{
+    float: left;
+    padding-top: 0px;
+    color: green;
+    line-height:70px;
+    font-size: 30px;
+}
+.ctg h2:hover{
+    color:aqua;
+}
+.ctg2 li{
+    list-style-type: none;
+    line-height: 40px;   
+    width: 150px;
+    background-color: rgb(226, 226, 30);   
+    z-index: 3;
+}
+.ctg2 li:hover{
+    background-color: rgb(191, 170, 170);;
+}
+#ct{
+    text-decoration-line: none;
+    padding-left: 5px;
+    color: rgb(0, 179, 255);
+    font-size:25px;
+   
+}
+#ct:hover{
+    color: red;   
+}
+.ctg2{
+    position:absolute;
+    top: 50px;
+    left: 480px;
+    display: none;
+    border: 0.5px solid gray;
+}
+#icmn:hover .ctg2{
+    display:block;
+}
+.ctg:hover .ctg2{
+    display: block;
+}
+.searchbar{   
+    height:70px;
+    width: 30%;
+    /* background-color:rgba(208, 167, 248, 0.918); */
+    float: left;
+    line-height: 70px;
+    margin-left: 5%;
+}
+#searchbox{
+    height: 30px;
+    font-size: 20px;
+    margin-left: 10%;
+    padding:3% 10%;
+    border: 0px radius none;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+input#searchbox{
+    background-color:rgb(219, 234, 217);
+    border: 0;  
+}
+#btn{
+    padding: 0px;
+    border: none;
+}
+#searchbtn{
+    width: 38px; 
+    position:absolute;
+    top: 1.5%;
+    left: 74%;
+ }
+.acc{
+    width: 10%;
+    height: 70px;
+    padding-left: 20px; 
+    /* display: inline-block; */
+    float: left;
+}
+#pepe{
+    width: 50%;
+    border-radius: 50%;
+}
+#footer{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(56, 51, 51);
+    z-index: 0;
+}
+.fb-page{
+    float:left;
+    margin-left: 6%;
+    margin-top: 2%;
+    z-index: 1;
+    }
+#copyright{
+  float: left;
+  font-size: 40px;
+  margin: 5% 4% 4% 15%;
+  color: white;
+}
+
+
+

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Ich Liebe Dich</title>
+   <link  rel="icon" href="Database/IMG/heartbook-modified.png" type="image/png">
+   <meta charset = utf-8>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel = "stylesheet" type = "text/css" href = "CSS/headerfooter.css">
+   <div id="fb-root"></div>
+   <link rel="stylesheet" type="text/css" href="CSS/homepage.css">
+   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v13.0" nonce="Dsc5KvQL"></script>
+</head>
+<div id="fb-root"></div>
+
+<body>
+    <div id = header>
+        <div class="logo">
+          <a href="homepage.html">  <img id = "imglg" src="Database/IMG/Weblogo.png"></a>
+           <!-- <a id="tenweb" href="#">
+              <b style="color:red">Ich</b> 
+              <b style="color:rgb(246, 13, 234)"> Liebe</b> 
+              <b style="color:rgb(43, 0, 255)">Dich</b>
+          </a> -->
+        </div> 
+        <div class = ctg>
+            <img id="icmn" src="Database/IMG/iconmenu.png">           
+            <h2>Thể Loại</h2>
+            <div class="ctg2">
+               <li><a href="#" id = ct>Action</a></li>
+               <li><a href="#" id = ct>Adventure</a></li>
+               <li><a href="#" id = ct>Comedy</a></li> 
+               <li><a href="#" id = ct>Detective</a></li> 
+               <li><a href="#" id = ct>Historial</a></li>  
+               <li><a href="#" id = ct>Honor</a></li> 
+               <li><a href="#" id = ct>Magic</a></li> 
+               <li><a href="#" id = ct>Music</a></li> 
+               <li><a href="#" id = ct>Oneshot</a></li> 
+               <li><a href="#" id = ct>Romantic</a></li> 
+               <li><a href="#" id = ct>Slice of life</a></li> 
+               <li><a href="#" id = ct>Sports</a></li> 
+               <li><a href="#" id = ct>Sci-fi</a></li> 
+               <li><a href="#" id = ct>Fantasy</a></li> 
+            </div>
+        </div>   
+        <div class="searchbar">
+            <input type="text/number" placeholder="Nhập tên truyện..." id ="searchbox">
+            <button onclick="search()" id="btn"><img id ="searchbtn" src="Database/IMG/searchic.png"></button>        
+        </div>
+        <div class = "acc">
+          <a href = "#"> <img id = "pepe" src="Database/IMG/pepe.jpg"></a>
+        </div> 
+    </div>
+
+    <div id = content>
+        <div class="newupdate">
+            <br>
+            <p>Truyên mới cập nhật</p>
+            <br>
+            <br>
+        <table>   
+            <tr>
+                <th id ="dldl">
+             <a  href="ChitietDLDL.html" > <img id="anhbia" src="Database/IMG/DLDL.jpg">
+             </a>
+               <br>
+               <a href="ChitietDLDL.html">Đấu La Đại Lục</a>          
+            </th>
+            <th id="pntt">
+                <img id ="anhbia" src="Database/IMG/PNTT.png">
+                <br>
+                <a href="ChitietPNTT.html">Phàm Nhân Tu Tiên</a>
+            </th>
+            <th id="pntt">
+                <img id="anhbia" src = "Database/IMG/VDCK.jpg">
+                <br>
+                <a href="ChitietVDCK.html">Vũ Động Càn Khôn</a>
+            </th>
+            <th id="ttb">
+                <img id="anhbia" src="Database/IMG/TTB.png">
+                <br>
+                <a href ="ChitietTTB.html">Tinh Thần Biến</a>
+            </th>
+            <th id ="ttkm">
+                <a  href="ChitietThatTichKhongMua.html" > <img id="anhbia" src="Database/IMG/ThatTichKhongMua.jpg">
+                </a>
+                  <br>
+                  <a href="ChitietThatTichKhongMua.html">Thất Tịch Không Mưa</a>          
+               </th>
+               <th id ="nhcq">
+                <a  href="ChitietNuHonCuaQuy.html" > <img id="anhbia" src="Database/IMG/NuHonCuaQuy.jpg">
+                </a>
+                  <br>
+                  <a href="ChitietNuHonCuaQuy.html">Nụ Hôn Của Quỷ</a>          
+               </th>
+            </tr>
+            <br>
+
+            <tr>
+
+                <th id ="dptk">
+                <a  href="ChitietDPTK.html" > <img id="anhbia" src="Database/IMG/DPTK.jpg">
+                </a>
+                  <br>
+                  <a href="ChitietDPTK.html">Đấu Phá Thương Khung</a>          
+               </th>
+               <th id ="yahctt">
+                <a  href="ChitietYeuAnhHonCaTuThan.html" > <img id="anhbia" src="Database/IMG/YeuAnh.jpg">
+                </a>
+                  <br>
+                  <a href="ChitietYeuAnhHonCaTuThan.html">Yêu Anh Hơn Cả Tử Thần</a>          
+               </th>
+               <th id="yliapr">
+                   <a href ="ChitietYLIAPR.html"><img id="anhbia" src="Database/IMG/YLIAPR.jpg"></a>
+                   <br>
+                   <a href="ChitietYLIAPR.html">Tháng Tư Là Lời Nói Dối Của Em</a>
+               </th>
+            </tr>
+               
+            <!-- <th id="truyenhot">
+                <h2>Truyện Hot</h2>
+            </th> -->
+        </table> 
+        </div>
+    </div>
+
+    <div id = footer>
+        <div class="fb-page" data-href="https://www.facebook.com/Ich-Liebe-Dich-101146119244663/" data-tabs="none" data-width="500" data-height="100" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Ich-Liebe-Dich-101146119244663/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Ich-Liebe-Dich-101146119244663/">Ich Liebe Dich</a></blockquote></div>
+        <p id = copyright>Copyright © 2022 IchLiebeDich</p>
+    </div>
+</body>
+</html>
